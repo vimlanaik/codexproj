@@ -1,0 +1,21 @@
+{
+  "name": "forex-updater",
+  "version": "0.1.0",
+  "description": "Library to update forex rates with fixed base currencies and exceptions",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/example.js"
+  },
+  "author": "vimlanaik",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5",
+    "@types/node": "^18.0.0",
+    "@types/node-fetch": "^2.6.2"
+  }
+}
